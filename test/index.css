@@ -4,6 +4,13 @@ h1 {text-align: center;color: green; font-family: verdana; font-size: 300%; 
 
 p {text-align: center;color: white; font-family: courier; font-size: 150%; }
 
+.certs {
+  border-top: 5px black solid;
+  border-bottom: 5px black solid;
+  padding: 20px 50%;
+  background-color: #fff;
+}
+
 a {text-align: center;color: black; font-family: black; font-size: 150%; }
 
 img:hover {filter: brightness(50%);}

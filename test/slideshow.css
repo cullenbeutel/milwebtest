@@ -8,7 +8,7 @@
 }
 
 /* Hide the images by default */
-.mySlides {
+/* .mySlides { */
     display: none;
 }
 
@@ -41,7 +41,7 @@
 /* Caption text */
 .text {
   border: 2px solid black;
-  opacity: 0.6;
+  opacity: .4;
   color: white;
   background-color: gray;
   font-size: 15px;

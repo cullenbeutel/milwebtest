@@ -6,7 +6,7 @@
 
 <script src = "index.js"></script>
 
-<link rel= "icon" type= "image/png" href= "Images/milwebbar.png"/>
+<link rel= "icon" href= "Images/milwebbar.png"/>
 <head>
   <title>Magnetic Inspection Laboratory, Inc. | Metal Finishing | Coatings | NDT | Welding</title>
   <link rel = "stylesheet" href = "index.css">
@@ -19,7 +19,7 @@
 <div class="menu">
   <button onclick="myFunction()" class="menubtn">Menu</button>
   <div id="myMenu" class="menu-content">
-    <a href="http://www.milinc.com/about/overview-history/" target="_blank">About</a>
+    <a href="about.html">About</a>
     <a href="http://www.milinc.com/services/" target="_blank">Services</a>
     <a href="http://www.milinc.com/approvals/" target="_blank">Clients</a>
     <a href="http://www.milinc.com/contact/request-info/" target="_blank">Contact</a>
@@ -31,6 +31,54 @@
 <body>
   <h1><strong> Magnetic Inspection Laboratory </strong> </h1>
 
+
+  <!-- Slideshow container -->
+  <div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 5</div>
+      <img src="Images/metal-testing.jpg" style="width:100%">
+      <div class="text"><p>Metal Finishing, Coatings, NDT, Precision Welding</p></div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 5</div>
+      <img src="Images/coated-parts.jpg" style="width:100%">
+      <div class="text"><p>Coated parts at MIL</p></div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 5</div>
+      <img src="Images/curing-oven.jpg" style="width:100%">
+      <div class="text"><p>IR Curing Oven</p></div>
+    </div>
+    <div class="mySlides fade">
+      <div class="numbertext">4 / 5</div>
+      <img src="Images/penetrant.jpg" style="width:100%">
+      <div class="text"><p>Liquid Dye Penetrant</p></div>
+    </div>
+    <div class="mySlides fade">
+      <div class="numbertext">5 / 5</div>
+      <img src="Images/black-white-bigpart-welds.jpg" style="width:100%">
+      <div class="text"><p>Precision 5-axis machining – prior to chem film, mask, anodize</p></div>
+    </div>
+
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+
+  <!-- The dots/circles -->
+  <div class = "dots">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+  </div>
+  <div>
   <div class="boxes">
     <div class="events">
       <a href="http://www.milinc.com/news/calendar/ " target="_blank">See our upcoming events!</a>
@@ -41,6 +89,7 @@
       <a href="http://www.milinc.com/2018/testing-is-on-a-passfail-basis-at-mil/ " target="_blank">View the latest news!</a>
     </div>
   </div>
+</div>
 
 <div id = "mission">
   <p>
@@ -83,7 +132,6 @@
     <input type="submit" value="submit"/>
 
   </form>
-
 </div>
 
 <br>

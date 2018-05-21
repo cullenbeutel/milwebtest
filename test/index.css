@@ -6,11 +6,27 @@ p {text-align: center;color: white; font-family: courier; font-size: 150%; }
 
 a {text-align: center;color: black; font-family: black; font-size: 150%; }
 
-.mainSection{
-  margin: auto;
-  text-align: center;
-}
+* {box-sizing:border-box}
 
+
+.boxes{
+  float:right;
+  width: 30%;
+}
+.events{
+  padding: 15px;
+  padding-bottom: 40px;
+  background-color: #d5dbdb;
+  border: 3px black solid;
+  margin: 10px;
+}
+.news{
+  padding: 15px;
+  padding-bottom: 40px;
+  background-color: #d5dbdb;
+  border: 3px black solid;
+  margin: 10px;
+}
 img:hover {filter: brightness(50%);}
 
 .link {text-align: center;}

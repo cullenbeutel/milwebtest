@@ -17,3 +17,11 @@ img:hover {filter: brightness(50%);}
 .input {text-align: center;}
 
 .certs {text-align: center;}
+
+#mission {
+  float:none;
+  border: 3px green solid;
+  text-align: center;
+  padding: 15px;
+  background: #333;
+}

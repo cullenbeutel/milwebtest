@@ -1,8 +1,16 @@
 body {background-color: grey;}
 
-h1 {text-align: center;color: darkgreen; font-family: verdana; font-size: 300%; }
+h1 {text-align: center;color: green;
 
-p {text-align: center;color: white; font-family: courier; font-size: 150%; }
+ font-family: verdana;
+
+ font-size: 300%; }
+
+p {text-align: center;color: white;
+
+ font-family: courier;
+
+ font-size: 150%; }
 
 a {text-align: center;color: black; font-family: black; font-size: 150%; }
 
@@ -17,3 +25,11 @@ img:hover {filter: brightness(50%);}
 .input {text-align: center;}
 
 .certs {text-align: center;}
+
+#mission {
+  float:none;
+  border: 3px green solid;
+  text-align: center;
+  padding: 15px;
+  background: #333;
+}

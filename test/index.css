@@ -35,8 +35,9 @@ img:hover {filter: brightness(50%);}
 }
 
 /* The container <div> - needed to position the dropdown content */
-.menudown {
-    position: left;
+.menu {
+    float: 0;
+    position: relative;
     display: inline-block;
 }
 

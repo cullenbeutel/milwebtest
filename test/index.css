@@ -1,6 +1,6 @@
 body {background-color: grey;}
 
-h1 {text-align: center;color: green; font-family: verdana; font-size: 300%; }
+h1 {text-align: center;color: darkgreen; font-family: verdana; font-size: 300%; }
 
 p {text-align: center;color: white; font-family: courier; font-size: 150%; }
 
@@ -20,7 +20,7 @@ img:hover {filter: brightness(50%);}
 
 #mission {
   float:none;
-  border: 3px green solid;
+  border: 3px darkgreen solid;
   text-align: center;
   padding: 15px;
   background: #333;

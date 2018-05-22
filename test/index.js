@@ -19,9 +19,8 @@ window.onclick = function(event) {
   }
 }
 
-function changeImg() {
-  var i = 0;
-  
+var slideIndex = 1;
+showSlides(slideIndex;)
+function plusSlides(n) {
+  showSlides(slideIndex += n);
 }
-
-changeImg();

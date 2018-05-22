@@ -17,34 +17,11 @@ window.onclick = function(event) {
       }
     }
   }
+}
 
-  var j = 0;
-  var images = [];
-  var captions = [];
-  var time = 7000;
+function changeImg() {
+  var i = 0;
+  
+}
 
-  images[0] = 'Images/metal-testing.jpg';
-  images[1] = 'Images/coating.jpg';
-  images[2] = 'Images/curing-oven.jpg';
-  images[3] = 'Images/penetrant.jpg';
-  images[4] = 'Images/black-white-bigpart-welds.jpg';
-  captions[0] = 'Metal finishing, coatings, nondestructive testing, precision welding';
-  captions[1] = 'Coated parts at MIL';
-  captions[2] = 'IR Curing Oven';
-  captions[3] = 'Liquid Dye Penetrant';
-  captions[4] = 'Precision 5-axis machining – prior to chem film, mask, anodize';
-
-  function changeImg(){
-    document.slide.src = images[j]
-
-    if(j < images.length - 1){
-      j++;
-    }
-    else{
-      j = 0;
-    }
-
-    setTimeout("changeImg()",time);
-  }
-
-  window.onload = changeImg;
+changeImg();

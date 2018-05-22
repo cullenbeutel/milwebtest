@@ -19,7 +19,6 @@
 <div class="menu">
   <button onclick="myFunction()" class="menubtn">Menu</button>
   <div id="myMenu" class="menu-content">
-    <a href = "index.html"> Home </a>
     <a href="about.html">About</a>
     <a href="services.html">Services</a>
     <a href="client.html">Clients</a>
@@ -32,9 +31,24 @@
 <body>
   <h1><strong> Magnetic Inspection Laboratory </strong> </h1>
 
-  <ul id="slides">
-      <li class="slide showing"> <a href="services.html"> <img src=slide> </a> </li>
-  </ul>
+<!-- Slideshow div-->
+  <div class="slideshow">
+    <div class="slides">
+      <ol class = "slidelist">
+        <li> <a href="services.html" target = "_blank"> <img src="Images\black-white-bigpart-welds.jpg"> </a> </li>
+        <li> <a href="services.html" target = "_blank"> <img src="Images\metal-testing.jpg"> </a> </li>
+        <li> <a href="services.html" target = "_blank"> <img src="Images\curing-oven.jpg"> </a> </li>
+        <li> <a href="services.html" target = "_blank"> <img src="Images\coated-parts.jpg"> </a> </li>
+        <li> <a href="services.html" target = "_blank"> <img src="Images\penetrant.jpg"> </a> </li>
+      </ol>
+    </div>
+   <div class="prev">
+     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+   </div>
+   <div class="next">
+     <a class="next" onclick="plusSlides(1)">&#10095;</a>
+   </div>
+  </div>
 
   <div class="boxes">
     <div class="events">

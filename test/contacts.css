@@ -1,0 +1,19 @@
+div{
+  background-color:rgb(33,56,9);
+}
+
+body{
+  background-image: url(Images/MIL.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background: linear-gradient(black,darkgray);
+}
+
+.input{
+  color: white;
+  border-style: solid;
+  border-color: black;
+  padding: 30px 5px 30px 5px;
+  margin: 100px;
+  min-width: 200px;
+}

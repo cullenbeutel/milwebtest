@@ -33,4 +33,18 @@ window.onclick = function(event) {
   captions[2] = 'IR Curing Oven';
   captions[3] = 'Liquid Dye Penetrant';
   captions[4] = 'Precision 5-axis machining – prior to chem film, mask, anodize';
+
+  function changeImg(){
+    document.slide.src = images[i]
+
+    if(i < images.length - 1){
+      i++;
+    }
+    else{
+      i = 0;
+    }
+
+    setTimeout("changeImg()",time);
+  }
   
+  window.onload = changeImg;

@@ -1,8 +1,16 @@
 body {background-color: grey;}
 
-h1 {text-align: center;color: darkgreen; font-family: verdana; font-size: 300%; }
+h1 {text-align: center;color: darkgreen;
 
-p {text-align: center;color: white; font-family: courier; font-size: 150%; }
+ font-family: verdana;
+
+ font-size: 300%; }
+
+p {text-align: center;color: white;
+
+ font-family: courier;
+
+ font-size: 150%; }
 
 a {text-align: center;color: black; font-family: black; font-size: 150%; }
 

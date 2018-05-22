@@ -35,16 +35,16 @@ window.onclick = function(event) {
   captions[4] = 'Precision 5-axis machining – prior to chem film, mask, anodize';
 
   function changeImg(){
-    document.slide.src = images[i]
+    document.slide.src = images[j]
 
-    if(i < images.length - 1){
-      i++;
+    if(j < images.length - 1){
+      j++;
     }
     else{
-      i = 0;
+      j = 0;
     }
 
     setTimeout("changeImg()",time);
   }
-  
+
   window.onload = changeImg;

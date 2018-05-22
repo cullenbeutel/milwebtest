@@ -1,4 +1,9 @@
-body {background-color: grey;}
+body{
+  background-image: url(Images/MIL.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background: linear-gradient(black,darkgray);
+}
 
 h1 {text-align: center;color: darkgreen;
 
